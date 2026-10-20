@@ -51,6 +51,10 @@ The key components for this project are listed below, but you can find the full 
 
 **Not included:** Raspberry Pi 5, OV9281-110 Camera, and a 65W+ USB-C PD charger.
 
+## AI Usage
+
+I used Claude Opus 5.5 to assist in routing the PCB, and to apply a few design fixes during the routing step.
+
 ## License
 
 All hardware design files are released under the [CERN-OHL-P-2.0](LICENSE) license! Symbols, footprints, and 3D models were imported from EasyEDA using JLCImport and are not covered by this license.
