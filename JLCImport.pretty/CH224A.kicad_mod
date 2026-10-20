@@ -1,0 +1,270 @@
+(footprint "CH224A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-40℃~+105℃ 140W 1C 4V~30V 5V、9V、12V、15V、20V、28V PD 3.2、BC 1.2、AVS、PPS、SPR Power Receiver Controller ESSOP-10 USB PD ROHS")
+	(tags "C42459160 CH224A ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP WCH(Jiangsu Qin Heng)")
+	(property "Reference" "REF**"
+		(at 0 -4.30022 0)
+		(layer "F.SilkS")
+		(uuid "6638c8dc-3454-4074-96cb-32e5fad10ca6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 4.30022 0)
+		(layer "F.Fab")
+		(uuid "45191999-5823-4933-a47c-7f4b26ac3134")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C42459160.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=QAJdUgIEFlEIAwBTEQVaX1ZeRVlZVVIARVJdAlRRFVgxVlNfRlReUVxQQVFaXjtW"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17838faa-7f61-4428-be56-8652f9145825")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+105℃ 140W 1C 4V~30V 5V、9V、12V、15V、20V、28V PD 3.2、BC 1.2、AVS、PPS、SPR Power Receiver Controller ESSOP-10 USB PD ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0600b40-de2c-43ab-9e63-ae74d68bd821")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C42459160"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a9a3b34-7530-48c2-ab47-e552011b2d3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.5 -1.95)
+		(end 2.5 -1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "477d5456-0a0d-496e-8fef-f7bce6b05cc4")
+	)
+	(fp_line
+		(start -2.5 -0.82)
+		(end -2.5 -1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a29c1620-99fa-4f1d-9248-04b650864856")
+	)
+	(fp_line
+		(start -2.5 -0.58)
+		(end -2.5 -0.82)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d457374-107c-4d3e-8e04-be37a8c0bb88")
+	)
+	(fp_line
+		(start -2.5 0.48006)
+		(end -2.4 0.48006)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31977d69-e215-49fe-abd8-01857d773eea")
+	)
+	(fp_line
+		(start -2.5 1.95)
+		(end -2.5 0.48006)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4ce853e-8d14-4da4-aabd-c0fa5e627b8c")
+	)
+	(fp_line
+		(start -2.5 1.95)
+		(end 2.5 1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fc93b01-e104-44d3-beeb-98c38281f444")
+	)
+	(fp_line
+		(start -2.46 -0.54)
+		(end -2.5 -0.58)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "922bfd07-c8ba-48e1-97f3-a8f489544278")
+	)
+	(fp_line
+		(start 2.5 1.95)
+		(end 2.5 -1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43319330-0d63-4f1a-8054-95cb64c1bef1")
+	)
+	(fp_arc
+		(start -2.46 -0.54)
+		(mid -2.064 -0.396)
+		(end -1.92 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "963e8e23-2253-429d-a483-5fe47a6badd0")
+	)
+	(fp_arc
+		(start -1.92 0)
+		(mid -2.060577 0.339418)
+		(end -2.4 0.48)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0261a37a-126a-4798-98cc-1142003b2212")
+	)
+	(fp_circle
+		(center -1.92 1.260221)
+		(end -1.63576 1.260221)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ba1caec6-419f-4aae-8d4d-b8860c9f5bb7")
+	)
+	(fp_circle
+		(center -2.159 3.810127)
+		(end -2.00881 3.810127)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "eca73d78-a63d-431c-8f14-844011312df1")
+	)
+	(pad "1" smd rect
+		(at -2 3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ab048b7e-518a-4a98-98a6-331e6389f7af")
+	)
+	(pad "2" smd rect
+		(at -1 3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "09593801-c12d-47e0-ae83-d34949ed2558")
+	)
+	(pad "3" smd rect
+		(at 0 3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "33560cc8-8299-4298-b7db-ccef91815540")
+	)
+	(pad "4" smd rect
+		(at 1 3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2bac4ab6-2fc4-468e-9420-81eb08cdd783")
+	)
+	(pad "5" smd rect
+		(at 2 3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5577bb23-4607-4e3a-a7ae-687d414706ea")
+	)
+	(pad "6" smd rect
+		(at 2 -2.999867 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2efce2cd-7e14-450b-a84d-f6d125705699")
+	)
+	(pad "7" smd rect
+		(at 1 -3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "528a20f0-10df-48a9-8fc1-7fd3880c7156")
+	)
+	(pad "8" smd rect
+		(at 0 -3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "259144e5-c1f2-4dcc-86a0-2e2c87b308bb")
+	)
+	(pad "9" smd rect
+		(at -1 -3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3f5cc6a9-05af-4a5d-a27c-f8c8af843d24")
+	)
+	(pad "10" smd rect
+		(at -2 -2.999867 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cfd4556e-10aa-4876-a0f4-121993a8c132")
+	)
+	(pad "11" smd rect
+		(at 0 -0.000127 180)
+		(size 3.3 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5f44a79c-7b6b-4f1c-baa0-4e886c1019f5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/JLCImport.3dshapes/CH224A.wrl"
+		(offset
+			(xyz 0 0 0.81)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

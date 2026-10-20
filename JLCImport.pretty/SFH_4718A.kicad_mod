@@ -1,0 +1,228 @@
+(footprint "SFH_4718A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-40℃~+125℃ 1.75V 400mW/sr@IF=1A 860nm SMD-3P Infrared LED Emitters ROHS")
+	(tags "C2900417 OSRAM Opto Semicon SENSOR-SMD_SFH4718A SFH 4718A")
+	(property "Reference" "REF**"
+		(at 0 -2.905 0)
+		(layer "F.SilkS")
+		(uuid "f98aed9d-a57f-4805-9940-573a93b8f935")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 2.905 0)
+		(layer "F.Fab")
+		(uuid "b4b2394f-5ff4-4dd3-9713-128be9c6c97e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161216_OSRAM-Opto-Semicon-SFH-4718A_C2900417.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d66444ca-4b07-4754-ab80-ae4dacd11ce9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+125℃ 1.75V 400mW/sr@IF=1A 860nm SMD-3P Infrared LED Emitters ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b35d7dab-ba41-4df8-b371-f8ad2dfc971f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2900417"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3caae2a-82f2-4ccf-a2a0-faba192cc807")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.905 -1.905)
+		(end -1.905 1.905)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26134d84-467f-48d1-99cb-7e699d2d1d40")
+	)
+	(fp_line
+		(start -1.905 1.905)
+		(end 1.778 1.905)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37acbfe7-8bb2-4e04-b202-93d57d779abc")
+	)
+	(fp_line
+		(start 1.778 1.905)
+		(end 1.905 1.905)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a4ba492-24fe-410b-abd4-371d37b00442")
+	)
+	(fp_line
+		(start 1.905 -1.905)
+		(end -1.905 -1.905)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73b03ed3-8525-48a3-a274-a8518e9921aa")
+	)
+	(fp_line
+		(start 1.905 1.905)
+		(end 1.905 -1.905)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40724339-19a5-42bf-98bd-4bc7e87b2734")
+	)
+	(fp_poly
+		(pts
+			(xy -2 -1.1) (xy -1.695 -1.1) (xy -1.695 -1.905) (xy -2 -1.905)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e8547a01-001c-48db-b16a-2146db8c85e6")
+	)
+	(fp_line
+		(start 2.176475 -0.00922)
+		(end 2.994355 -0.00922)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9fc25030-f5d5-42b2-acb8-86413a111918")
+	)
+	(fp_line
+		(start 2.585415 0.39972)
+		(end 2.585415 -0.41816)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "017d30d6-20f7-4bb5-9167-2ac5395238b6")
+	)
+	(fp_poly
+		(pts
+			(xy -0.65024 0.1) (xy -2.350135 0.1) (xy -2.350135 -0.1) (xy -0.65024 -0.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "50896f72-2bb1-460e-a436-cf00fde5428c")
+	)
+	(fp_poly
+		(pts
+			(xy 1.4 0.85) (xy 1.4 -0.85) (xy 1.6 -0.85) (xy 1.6 0.85)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "efb50038-c40f-42a4-badf-c11d5515add4")
+	)
+	(fp_poly
+		(pts
+			(xy 2.349805 0.100127) (xy 0.649808 0.100127) (xy 0.649808 -0.099873) (xy 2.349805 -0.099873)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "ca9db902-da11-437d-8b8c-74e2fba0eabb")
+	)
+	(fp_poly
+		(pts
+			(xy -1.778 -1.397) (xy -1.778 -1.778) (xy -1.143 -1.778) (xy -1.143 -1.397) (xy -1.27 -1.397)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "a69e1e0b-7e30-4371-9b11-6d2e57868867")
+	)
+	(pad "1" smd rect
+		(at -1.1 0 90)
+		(size 3.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f1be9194-d203-48f8-ac0d-e9bd9dad5498")
+	)
+	(pad "2" smd rect
+		(at 0 0 90)
+		(size 3.2 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "019d1bc0-38ea-4fd3-9181-a44e320ed355")
+	)
+	(pad "3" smd rect
+		(at 1.1 0 90)
+		(size 3.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "602984dc-7df5-40de-859e-b0450d64c180")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/JLCImport.3dshapes/SFH_4718A.wrl"
+		(offset
+			(xyz 0 0 0.564)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

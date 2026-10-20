@@ -1,0 +1,244 @@
+(footprint "RVT1H331M1010"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-55℃~+105℃ 10.2mm 10mm 2800hrs@105℃ 330uF 50V ±20% SMD,D10xL10.2mm Aluminum Electrolytic Capacitors - SMD ROHS")
+	(tags "C2687701 CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD DMBJ RVT1H331M1010 330UF 50V")
+	(property "Reference" "REF**"
+		(at 0 -6.226202 0)
+		(layer "F.SilkS")
+		(uuid "3b607f61-8ea9-4e4c-805e-a919ef23d9da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 6.226253 0)
+		(layer "F.Fab")
+		(uuid "eab43cb6-7d09-401f-8de8-1a419725a533")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106070104_DMBJ-RVT1H331M1010-330UF-50V_C2687701.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df1377a9-e1f2-4e55-881b-8c6c61b731b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-55℃~+105℃ 10.2mm 10mm 2800hrs@105℃ 330uF 50V ±20% SMD,D10xL10.2mm Aluminum Electrolytic Capacitors - SMD ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12f30320-48fd-4b4d-b41e-eb6b23928c17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2687701"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eaf3def4-5a24-434a-b640-f72b1d73640b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.226329 -3.09)
+		(end -5.226329 -0.852399)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5dd1ea27-8dea-41bc-957f-f00ac872e092")
+	)
+	(fp_line
+		(start -5.226329 3.09)
+		(end -5.226329 0.852449)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c701902d-8770-490d-a758-67db6953d141")
+	)
+	(fp_line
+		(start -3.09 -5.226202)
+		(end -5.226329 -3.09)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b92020f9-13d8-4f2c-a99e-fec6e7e6cfa9")
+	)
+	(fp_line
+		(start -3.09 5.226253)
+		(end -5.226329 3.09)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34726298-0e3e-4708-aa82-5db94fbb1e48")
+	)
+	(fp_line
+		(start 5.226126 -5.226202)
+		(end -3.09 -5.226202)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ec68793-1683-4fbd-b704-e8c178199aa7")
+	)
+	(fp_line
+		(start 5.226126 -0.852399)
+		(end 5.226126 -5.226202)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c60c065e-9db1-4b16-89b4-b46bae5f90fd")
+	)
+	(fp_line
+		(start 5.226126 0.852449)
+		(end 5.226126 5.226253)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a2a057a-e7cb-43fb-ab2a-8c375794bea9")
+	)
+	(fp_line
+		(start 5.226126 5.226253)
+		(end -3.09 5.226253)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "483d8b3d-8839-42cd-b224-80b519335060")
+	)
+	(fp_poly
+		(pts
+			(xy -4.841 2.214524) (xy -4.841 2.523515) (xy -3.605 2.523515) (xy -3.605 2.214524)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "a4a43869-8296-47d7-bca2-2e5062b70685")
+	)
+	(fp_poly
+		(pts
+			(xy -4.377614 1.339) (xy -4.377614 3.399) (xy -4.068597 3.399) (xy -4.068597 1.339)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "cd451d8c-92e3-4337-bbff-6070c5b1907d")
+	)
+	(fp_poly
+		(pts
+			(xy 4.841 2.214524) (xy 4.841 2.523515) (xy 3.605 2.523515) (xy 3.605 2.214524)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "f22a9121-eb50-46e8-9ab0-87b04e77ef3b")
+	)
+	(fp_poly
+		(pts
+			(xy -4.841 -0.154483) (xy -4.841 0.154534) (xy -3.605 0.154534) (xy -3.605 -0.154483)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "3f3276b6-6631-4e9e-b47f-47f21385081f")
+	)
+	(fp_poly
+		(pts
+			(xy -4.377614 -1.03) (xy -4.377614 1.03) (xy -4.068597 1.03) (xy -4.068597 -1.03)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "39079fcb-6bd9-46b4-a808-a6dfbb743b54")
+	)
+	(fp_poly
+		(pts
+			(xy 4.841 -0.154483) (xy 4.841 0.154534) (xy 3.605 0.154534) (xy 3.605 -0.154483)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "4fb9a88f-b88c-40e2-923c-731b8e46e309")
+	)
+	(pad "1" smd rect
+		(at -4.5 0)
+		(size 4.5 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1f73074b-784d-40fd-acf7-f399533823ec")
+	)
+	(pad "2" smd rect
+		(at 4.5 0)
+		(size 4.5 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f9013d49-4866-4867-9442-8a0588cc7385")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/JLCImport.3dshapes/RVT1H331M1010.wrl"
+		(offset
+			(xyz 0 0 0.01)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
