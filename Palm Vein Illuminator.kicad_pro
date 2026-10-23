@@ -227,6 +227,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -238,6 +239,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -249,6 +251,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -596,6 +599,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -676,8 +680,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "5V (Pi)",
@@ -713,7 +717,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./gerbers",
       "specctra_dsn": "",
       "step": "../Downloads/Palm Vein Illuminator.step",
       "vrml": ""
@@ -880,7 +884,7 @@
         "uuid": "f24045b3-5039-49ad-9ed0-a372b2b556e8"
       }
     ],
-    "used_designators": "J2,J4,H1-2,USBC1,R1-14,L1-3,CN1,DC1,#PWR1-41,U1-24,Q1,D1-4,D11,C1-12,C14-15,#FLG1-5",
+    "used_designators": "#FLG1-5,#PWR1-41,C1-12,C14-15,CN1,D1-4,D11,DC1,H1-2,J2,J4,L1-3,Q1,R1-14,U1-24,USBC1",
     "variants": []
   },
   "sheets": [
